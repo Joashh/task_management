@@ -1,0 +1,27 @@
+@import "tailwindcss";
+@import 'primeicons/primeicons.css';
+
+.hover-underline {
+  position: relative;
+  display: inline-block;
+}
+
+.hover-underline::after {
+  content: "";
+  display: block;
+  margin: auto;
+  height: 2px;
+  width: 0;
+  background: black;
+  transition: width 0.3s ease;
+}
+
+.hover-underline:hover::after {
+  width: 100%;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased; /* Chrome, Safari */
+  -moz-osx-font-smoothing: grayscale;  /* Firefox */
+}
