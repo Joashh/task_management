@@ -1,4 +1,4 @@
-# ChoreChamp - Task Management Website
+<img width="465" height="934" alt="image" src="https://github.com/user-attachments/assets/abc48c96-75c2-4ef8-a5cb-8ae863a3423a" /># ChoreChamp - Task Management Website
 
 ChoreChamp is my examination for the position of software developer in VIPTutors. Although I did not finish it, I am very sure that I did my best and put all my hardwork, effort, dedication to this simple project. 
 The frontend is made by VueJs (No frameworks like Nuxt just Vue). The backend is Laravel 12. I made sure that I used session based cookie for authentication to consider the CSRF and XSS attacks. I also create a route guard 
@@ -35,5 +35,15 @@ The task can be filtered as well. The search bar is working for direct query.
 2. then run the npm run dev to serve the frontend
 
 ![Login](./login.png)
-
+![Login](./register.png)
+![Login](./homeweb.png)
+The task order can be manipulate by dragging and droping. The record in the database will be updated.
+![Login](./mobilehome.png)
+To ensure adaptability in different width of devices, the layout is safe and not complex. Considering as well the UX/UI
+![Login](./modal.png)
+The modal helps the user to focus on what they tap. 
+![Login](./adminside.png)
+On the admin side, the only difference is that it has 'Add Task' to distribute or give task to users.
+![Login](./addtask.png)
+You can add tasks, and select multiple existing users to assign it to them :D
 
