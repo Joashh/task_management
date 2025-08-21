@@ -1,13 +1,41 @@
 
 
-ChoreChamp is my examination for the position of software developer in VIPTutors. Although I did not finish it, I am very sure that I did my best and put all my hardwork, effort, dedication to this simple project. 
-The frontend is made by VueJs (No frameworks like Nuxt just Vue). The backend is Laravel 12. I made sure that I used session based cookie for authentication to consider the CSRF and XSS attacks. I also create a route guard 
-for the frontend to prevent auth/guest users accessing exclusive pages. I used MySQL Workbench as my way for storing data. I did not query inside the workbench to modify schema, so I can say that the migration files are enough to recreate the database. 
+# ChoreChamp
 
-The application can drag and drop the tasks and can change the order in the database. It has a top color to determine wether a task is completed or not. A star indicates how urgent the task is.
-If the star is green, it is low, yellow, medium, while red indicate high. When you click the task, a modal will popup to show the not so detailed view of task. Within the modal, you can make a task complete.
+ChoreChamp is a task management application created as part of my examination for the **Software Developer position at VIPTutors**. Although I did not fully complete it, I put my **best effort, dedication, and hard work** into this project.
 
-The task can be filtered as well. The search bar is working for direct query.
+---
+
+## Tech Stack
+- **Frontend:** Vue.js (Vanilla Vue, no frameworks like Nuxt)
+- **Backend:** Laravel 12
+- **Database:** MySQL (managed via MySQL Workbench)
+- **Authentication:** Session-based cookies (CSRF & XSS protection included)
+- **Routing:** Frontend route guards to prevent unauthorized access
+
+---
+
+## Features
+
+### Task Management
+- **Drag & Drop:** Tasks can be reordered, and changes are saved in the database.
+- **Task Status:** The top color indicates completion status.
+- **Urgency Indicator:** Tasks are starred with colors representing urgency:
+  - 🟢 Low  
+  - 🟡 Medium  
+  - 🔴 High
+- **Task Modal:** Click a task to open a modal with a brief view. Tasks can be marked as complete within the modal.
+
+### Filtering & Search
+- Tasks can be **filtered** by status and urgency.
+- **Search bar** allows direct query for tasks.
+
+---
+
+## Database
+- All tables are created via **Laravel migration files**, so the database can be recreated without manually modifying MySQL Workbench.
+
+---
 ---
 
 ## Table of Contents
