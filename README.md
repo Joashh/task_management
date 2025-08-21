@@ -1,4 +1,4 @@
-<img width="465" height="934" alt="image" src="https://github.com/user-attachments/assets/abc48c96-75c2-4ef8-a5cb-8ae863a3423a" /># ChoreChamp - Task Management Website
+
 
 ChoreChamp is my examination for the position of software developer in VIPTutors. Although I did not finish it, I am very sure that I did my best and put all my hardwork, effort, dedication to this simple project. 
 The frontend is made by VueJs (No frameworks like Nuxt just Vue). The backend is Laravel 12. I made sure that I used session based cookie for authentication to consider the CSRF and XSS attacks. I also create a route guard 
